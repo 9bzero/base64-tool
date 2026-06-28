@@ -1,19 +1,27 @@
-# base64-tool
+# Base64 Tool
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-
-> Base64 & URL-safe encoder/decoder with file input support
+Encode and decode Base64 and URL-safe Base64 — supports text and file input, runs entirely in the browser.
 
 ## Features
-- 🔐 Encode and decode Base64 strings
-- 🔗 URL-safe mode (replaces +/= with -/_)
-- 📂 Load file and encode to Base64
-- ⇄ One-click swap encode/decode
-- 📋 Copy output
+
+- Text encode / decode
+- URL-safe Base64 variant (RFC 4648)
+- File to Base64 — drag and drop any file
+- Base64 to file download
+- Copy to clipboard
+- No data leaves your device
+
+## Stack
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61dafb?style=flat&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646cff?style=flat&logo=vite&logoColor=white)
+
+## Run locally
 
 ```bash
 npm install && npm run dev
 ```
 
-## License
-[MIT](LICENSE)
+---
+Made by [9bzero](https://github.com/9bzero)
